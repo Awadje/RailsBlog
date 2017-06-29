@@ -24,6 +24,14 @@ $navbar-default-bg: #2ecc71;
   margin-bottom: 0;
 }
 
+.nav.navbar-nav li a {
+   color: #fff;
+ }
+
+ .nav.navbar-nav li a:hover {
+ color: #27ae60;
+}
+
 .center {
   text-align: center;
   padding-top: 20%;
