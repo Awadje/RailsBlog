@@ -1,4 +1,4 @@
-$navbar-default-bg: #34495e;
+$navbar-default-bg: #2ecc71;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -16,15 +16,25 @@ $navbar-default-bg: #34495e;
   text-decoration: none;
 }
 
+* {
+  border-radius: 0 !important;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
 .center {
   text-align: center;
+  padding-top: 20%;
 }
 
 .jumbotron {
   background-image: asset-url('blogbanner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   color: white;
-  height: 100%;
-  height: 650px;
 }
 
 .jumobotron h1 {
