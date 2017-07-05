@@ -1,24 +1,33 @@
-# README
+# Personal Portfolio/Blog Site
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### General Information
 
-Things you may want to cover:
+A rails app were I can login and write about my coding journey.
 
-* Ruby version
+### Getting Started
 
-* System dependencies
+There are two methods for getting started with this repo.
 
-* Configuration
+#### Familiar with Git?
+Checkout this repo:
 
-* Database creation
+```
+> git clone
+> cd RailsBlog
+> gem install bundler
+> bundle install
+> rails db:setup
+> rails db:migrate
+> rails s http://localhost:3000/
+```
 
-* Database initialization
+#### Not Familiar with Git?
+Click [here](https://github.com/Awadje/RailsBlog/archive/master.zip) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+> gem install bundler
+> bundle install
+> rails db:setup
+> rails db:migrate
+> rails s http://localhost:3000/
+```
