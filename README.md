@@ -18,7 +18,8 @@ Checkout this repo:
 > bundle install
 > rails db:setup
 > rails db:migrate
-> rails s http://localhost:3000/
+> rails s
+> go to: http://localhost:3000/
 ```
 
 #### Not Familiar with Git?
@@ -29,5 +30,6 @@ Click [here](https://github.com/Awadje/RailsBlog/archive/master.zip) then downlo
 > bundle install
 > rails db:setup
 > rails db:migrate
-> rails s http://localhost:3000/
+> rails s
+> go to: http://localhost:3000/
 ```
