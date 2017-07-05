@@ -24,10 +24,15 @@ $navbar-default-bg: #2ecc71;
   margin-bottom: 0;
 }
 
-.center {
+.centered {
   text-align: center;
   padding-top: 20%;
 }
+
+.center {
+  text-align: center;
+}
+
 
 .jumbotron {
   background-image: asset-url('blogbanner.jpg');
@@ -72,6 +77,11 @@ $navbar-default-bg: #2ecc71;
   padding-top: 15px;
   padding-bottom: 15px;
 
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
 }
 
 footer {
