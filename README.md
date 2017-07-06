@@ -10,7 +10,7 @@ Features:
 > Authentication(Custom no Devise) including option to Sign Up
 > User Groups:
   > Visitor: No login required, can view articles
-  > Writer: Login required, CRUD management only on articles they created
+  > Writer: Login required, CRUD management only on articles they     created
     possible to edit their own user profile.
   > Admin: CRUD management on all articles, able to update and delete users
 > Profile is using profile pictures from Gravatar when e-mail is recognized
@@ -20,6 +20,8 @@ Features:
   If admin or creator; edit and delete buttons will appear
 > UI When logged in Actions and Profile menu will become visible in the navbar.
   The admin user will get an additional Profile Admin menu
+> Tests: 
+    >Categories: Model, Controller and Integration
 ```
 
 
@@ -65,4 +67,12 @@ Click [here](https://github.com/Awadje/RailsBlog/archive/master.zip) then downlo
 > rails db:migrate
 > rails s
 > go to: http://localhost:3000/
+```
+
+#### Run tests
+Run model, controller and integration tests
+
+```
+> rails test
+
 ```
