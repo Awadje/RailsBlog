@@ -4,6 +4,21 @@
 
 A rails app were I can login and write about my coding journey.
 
+Features:
+
+```
+> Authentication(Custom no Devise) including option to Sign Up
+> User Groups: Visitor, Writer, Admin
+  > Visitor: No login required, can view articles
+  > Writer: Login required, CRUD management only on articles they created, possible to edit their own user profile.
+  > Admin: CRUD on all articles, able to update and delete users
+> Profile is using profile pictures from Gravatar when e-mail is recognized
+> Articles index showing who created it, when it was created and when it was last updated. When admin or creator; edit and delete buttons will appear
+> Article show displaying a picture of the writer and the amount of articles written. When admin or creator; edit and delete buttons will appear
+> UI When logged in Actions and Profile menu will become visible in the navbar. The admin user will get an additional Profile Admin menu
+```
+
+
 To do:
 
 ```
