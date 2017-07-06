@@ -15,9 +15,9 @@ Features:
   > Admin: CRUD on all articles, able to update and delete users
 > Profile is using profile pictures from Gravatar when e-mail is recognized
 > Articles index displaying who created it, when it was created and
-  When it was last updated. When admin or creator; edit and delete buttons will appear
+  when it was last updated. If user is admin or creator; edit and delete buttons will appear
 > Article show displaying a picture of the writer and the amount of articles written.
-  When admin or creator; edit and delete buttons will appear
+  If admin or creator; edit and delete buttons will appear
 > UI When logged in Actions and Profile menu will become visible in the navbar.
   The admin user will get an additional Profile Admin menu
 ```
