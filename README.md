@@ -4,6 +4,14 @@
 
 A rails app were I can login and write about my coding journey.
 
+To do:
+
+```
+> Styling
+> Add category to articles
+> Write tests
+```
+
 ### Getting Started
 
 There are two methods for getting started with this repo.
