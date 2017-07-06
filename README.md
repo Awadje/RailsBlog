@@ -9,6 +9,7 @@ To do:
 ```
 > Styling
 > Add category to articles
+> Add option to upload images to an article
 > Write tests
 ```
 
