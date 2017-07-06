@@ -12,7 +12,7 @@ Features:
   > Visitor: No login required, can view articles
   > Writer: Login required, CRUD management only on articles they created
     possible to edit their own user profile.
-  > Admin: CRUD on all articles, able to update and delete users
+  > Admin: CRUD management on all articles, able to update and delete users
 > Profile is using profile pictures from Gravatar when e-mail is recognized
 > Articles index displaying who created it, when it was created and
   when it was last updated. If user is admin or creator; edit and delete buttons will appear
